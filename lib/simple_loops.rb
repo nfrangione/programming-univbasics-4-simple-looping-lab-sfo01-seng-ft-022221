@@ -23,7 +23,7 @@ def return_string_array(array)
   counter = 0 
   while counter < array.length do
     next_element = array[counter].to_s
-    string_array[counter] = next_element
+    string_array.push = next_element
   end
   string_array
 end
