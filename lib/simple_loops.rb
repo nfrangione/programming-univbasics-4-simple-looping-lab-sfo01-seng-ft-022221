@@ -22,7 +22,7 @@ def return_string_array(array)
   string_array = []
   counter = 0 
   while counter < array.length do
-    next_element = "#{array[counter]}"
+    next_element = array[counter].to_s
     string_array[counter] = next_element
   end
   string_array
